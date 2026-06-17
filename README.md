@@ -7,7 +7,7 @@ Computer Engineering & Software Systems student at **Ain Shams University (ICHEP
 - 🔭 Building multi-agent LLM systems, semantic search, and zero-trust microservices
 - 🧠 Deep into deep learning, NLP, computer vision, RAG/CAG, and LLM orchestration
 - 💼 Open to software & ML engineering internships and roles
-- 📫 [LinkedIn]([https://linkedin.com/in/bassil-alsafadi](https://www.linkedin.com/in/bassil-al-safadi-14a61b243/)) · [Email](mailto:alsafadibasil@gmail.com)
+- 📫  · [Email](mailto:alsafadibasil@gmail.com) · [LinkedIn](https://www.linkedin.com/in/bassil-alsafadi)
 
 ---
 
@@ -68,27 +68,27 @@ Computer Engineering & Software Systems student at **Ain Shams University (ICHEP
 
 ### 🩺 ORSA — AI Health Companion
 **[Live demo](https://orsa.vercel.app)** · **[Code](https://github.com/Solly2005/Orsa)**
-Production multi-service clinical triage system: Angular 19 frontend, a Go AI gateway, and an ASP.NET Core identity engine on Supabase/Postgres. 7-stage triage pipeline with a fine-tuned **Bio_ClinicalBERT** ONNX classifier for ESI severity, GPT-OSS reasoning, an escalate-only safety reconciliation algorithm, plus UMLS/SNOMED coding and FHIR R5 bundles. gRPC contracts, HS256 JWT, PBKDF2-SHA256 (600k iters), per-user rate limiting.
+Production-ready AI health triage platform split into three self-contained microservices: Angular 19 client, Go orchestration gateway, and ASP.NET 9 identity engine. 7-stage clinical triage pipeline with a fine-tuned **Bio-ClinicalBERT** ONNX classifier for severity prediction, an escalate-only reconciliation safety algorithm, UMLS/SNOMED concept coding, FHIR R5 bundle generation, and multimodal analysis (PDF/images) via vision LLMs. Secured via protobuf/gRPC, HS256 JWT sessions, PBKDF2-SHA256 hashing (600k iterations), and custom CORS policies.
 
 ### 🛒 MyPal — AI-Native Microservices Marketplace
 **[Code](https://github.com/Solly2005/MyPal)**
-Polyglot zero-trust marketplace where every account is buyer and seller. Go API gateway (JWT validation, identity-header stripping, idempotency, rate limiting), C#/.NET 9 commerce API, Node.js AI orchestrator, React SPA. Distributed backend with **saga-based checkout orchestration**, outbox/reconciliation, and NATS JetStream event bus. Semantic product discovery via pgvector + multi-provider LLM routing (Gemini, Mistral, Groq, OpenAI).
+Polyglot microservices marketplace with a Go API gateway enforcing token validation, rate-limiting, request size limits, and a normalized response envelope. Distributed-systems backend with **Saga-based checkout orchestration**, the Transactional Outbox pattern, and asynchronous event streaming via NATS JetStream. AI-powered product discovery using natural-language search with vector similarity embeddings and multi-provider LLM routing. React, Go, C#/.NET 9, Node.js, Supabase, PostgreSQL (pgvector), Hugging Face.
 
 ### 👤 3D Face Recognition System
 **[Code](https://github.com/Solly2005/3D-Face-Recognition)**
-3D facial verification pipeline converting raw scans into optimized voxel grids over the full Texas 3D Face Database. **99.93% test specificity (TNR)**, with post-training quantization for faster real-time inference. PyTorch + 3D CNNs.
+Deep learning spatial verification pipeline converting raw 3D scans into optimized volumetric voxel grids over the Texas 3D Face Database. **99.93% test specificity**, with post-training quantization to reduce memory footprint and speed up live inference. PyTorch, 3D CNNs.
 
 ### 🎓 University Management System (Uni SIS)
 **[Code](https://github.com/Solly2005/SIS)**
-University portal for enrollment, course selection, and RBAC across 3 user roles. React + TypeScript + FastAPI + Supabase, with Google Calendar sync and OAuth 2.0 authentication.
+Responsive university portal supporting student enrollment, dynamic course selection, and role-based access control (RBAC) across three role types (student, professor, admin). Connected Google Calendar API and OAuth 2.0 flow for automated scheduling and authenticated logins. React, TypeScript, FastAPI, PostgreSQL, Supabase.
 
 ### 🎮 Online Multiplayer Grid Clash Game
 **[Code](https://github.com/Solly2005/Networks_Project)**
-Concurrent multiplayer game on a custom UDP socket layer — binary protocol with sequence numbers, CRC32 checksums, and ACK-based flow control for reliable delivery. Python, concurrent server architecture, Linux.
+Concurrent multiplayer grid game powered by a custom UDP socket layer with a custom binary protocol for low-latency real-time state synchronization. Reliable communication mechanics including sequence numbers, CRC32 checksums, and ACK-based flow control on top of raw UDP. Python, concurrent server architecture, Linux.
 
 ### 🌳 Syntax Tree Visualizer
 **[Code](https://github.com/Solly2005/Syntax-tree-for-mathematical-operations)**
-Cross-platform C++ desktop GUI that parses algebraic expressions and renders interactive syntax/parse trees with zoom and pan. Modular architecture (Node, ParseTree, wxWidgets TreePanel), built with CMake.
+Cross-platform desktop application parsing complex algebraic expressions and rendering interactive syntax/parse trees. Modular object-oriented architecture separating core expression Node structures, recursive ParseTree parsing algorithms, and wxWidgets UI tree panels. C++, wxWidgets, CMake.
 
 ---
 
