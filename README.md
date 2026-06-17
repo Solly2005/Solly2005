@@ -7,7 +7,7 @@ Computer Engineering & Software Systems student at **Ain Shams University (ICHEP
 - 🔭 Building multi-agent LLM systems, semantic search, and zero-trust microservices
 - 🧠 Deep into deep learning, NLP, computer vision, RAG/CAG, and LLM orchestration
 - 💼 Open to software & ML engineering internships and roles
-- 📫 [LinkedIn](https://linkedin.com/in/bassil-alsafadi) · [Email](mailto:alsafadibasil@gmail.com)
+- 📫 [LinkedIn]([https://linkedin.com/in/bassil-alsafadi](https://www.linkedin.com/in/bassil-al-safadi-14a61b243/)) · [Email](mailto:alsafadibasil@gmail.com)
 
 ---
 
